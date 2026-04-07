@@ -6,7 +6,7 @@ Este laboratorio está diseñado como una introducción práctica a Git, una her
 El objetivo es brindar una base sólida que te permita comenzar a trabajar con flujos de desarrollo modernos y comprender cómo se gestionan los cambios en proyectos reales
 
 # 📙 Instrucciones
-#### Como requerimientos previos se necesita tener instalado git en tu pc y visual studio code para poder editar el archivo index.html.
+#### Como requerimientos previos se necesita tener instalado git en tu pc, una cuenta en github y visual studio code para poder editar el archivo index.html.
 Esta guia de laboratorio solo explicara ejecucion de comandos mediante CLI.
 
 
