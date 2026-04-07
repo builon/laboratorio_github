@@ -20,7 +20,7 @@ Esta guia de laboratorio solo explicara ejecucion de comandos mediante CLI.
 - Se desplegara el siguiente menu para poder crear el repositorio, Poner como nombre del repositorio laboratorio_github y crearlo
 ![Paso1-3](images/paso1-3.png)
 
-## 2. Descarga de archivos para laboratorio en tu propio repo.
+## 2. Descarga de archivos para laboratorio en tu propio reposositorio.
 
 En este caso no se usara la funcion Fork de git para evitar posibles conflictos con el repositorio principal por algun PR.
 
@@ -72,6 +72,18 @@ cuando se ejecute este comando se puede corroborar con los comandos anteriores q
 Como se puede apreciar cuando se va a hacer push hacia el repostorio en internet se especifica "origin <nombre-de-la-rama>".
 
 ### Ahora puedes modificar el codigo en la rama de desarrollo sin afectar la rama de produccion (main)
+
+### para modificar el codigo necesitamos abrir el Visual Studio Code y abrimos el proyecto (File -> Open Folder -> lab_gitlab). Nos deberia quedar como nos muestra en la imagen. ![Paso 4-1](images/paso4-1.png) 
+
+Para ver el proyecto por web debemos ingresar al gestor de archivo entramos a la ruta donde está el proyecto y copiamos esa url que aparece seleccionada. ![Paso 4-2](images/paso4-2.png) 
+
+Luego, vamos al navegador y copiamos la ruta y al final le agregamos \index.html para que lo visualicemos como se ve en la imagen. ![Paso 4-3](images/paso4-3.png) 
+
+Vamos a realizar variamos modificaciones dentro del codigo: 
+
+#### 1. Cambiaremos el color del header 
+
+
 
 ## 5. Subir cambios al repositorio
 
