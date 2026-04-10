@@ -6,7 +6,7 @@ Este laboratorio está diseñado como una introducción práctica a Git, una her
 El objetivo es brindar una base sólida que te permita comenzar a trabajar con flujos de desarrollo modernos y comprender cómo se gestionan los cambios en proyectos reales
 
 # 📙 Instrucciones
-#### Como requerimientos previos se necesita tener instalado git en tu pc y visual studio code para poder editar el archivo index.html.
+#### Como requerimientos previos se necesita tener instalado git en tu pc, una cuenta en github y visual studio code para poder editar el archivo index.html.
 Esta guia de laboratorio solo explicara ejecucion de comandos mediante CLI.
 
 
@@ -73,15 +73,21 @@ Como se puede apreciar cuando se va a hacer push hacia el repostorio en internet
 
 ### Ahora puedes modificar el codigo en la rama de desarrollo sin afectar la rama de produccion (main)
 
-### para modificar el codigo necesitamos abrir el Visual Studio Code y abrimos el proyecto (File -> Open Folder -> lab_gitlab). Nos deberia quedar como nos muestra en la imagen. ![Paso 4-1](images/paso4-1.png) 
+#### para modificar el codigo necesitamos abrir el Visual Studio Code y abrimos el proyecto (File -> Open Folder -> lab_gitlab). Nos deberia quedar como nos muestra en la imagen. ![Paso 4-1](images/paso4-1.png) 
 
-Para ver el proyecto por web debemos ingresar al gestor de archivo entramos a la ruta donde está el proyecto y copiamos esa url que aparece seleccionada. ![Paso 4-2](images/paso4-2.png) 
+#### Para ver el proyecto por web debemos ingresar al gestor de archivo entramos a la ruta donde está el proyecto y copiamos esa url que aparece seleccionada. ![Paso 4-2](images/paso4-2.png) 
 
-Luego, vamos al navegador y copiamos la ruta y al final le agregamos \index.html para que lo visualicemos como se ve en la imagen. ![Paso 4-3](images/paso4-3.png) 
+#### Luego, vamos al navegador y copiamos la ruta y al final le agregamos \index.html para que lo visualicemos como se ve en la imagen. ![Paso 4-3](images/paso4-3.png) 
 
-Vamos a realizar variamos modificaciones dentro del codigo: 
+#### Vamos a realizar variamos modificaciones dentro del codigo: 
 
-#### 1. Cambiaremos el color del header 
+#### 1. Se cambia el color del header colocando el cursor en el color donde esta seleccionado ![Paso 4-4](images/paso4-4.png)
+
+#### 2. Se cambia el titulo del header en la ruta 86 y se pone el nombre que quisiera. ![Paso 4-5](images/paso4-5.png)
+
+![Paso 4-6](images/paso4-6.png)
+
+#### Nota: Si desea realizar cambios adicionales en el codigo es completamente libre.
 
 
 
@@ -137,6 +143,7 @@ Luego de ejecutado el comando no hay que realizar ningun "git add" o "git commit
 ```
 ## Ahora puedes ver los cambios que hiciste en la rama dev en la rama main.
 
+<<<<<<< HEAD
 ## 7. Aplicar merge solicitando Pull Request (PR)
 ### Para este paso no hay que repetir el paso 6 ya que es un proceso diferente para poder realizar el PR.
 
@@ -145,3 +152,6 @@ Para implementar un merge a la rama main mediante pull request, se requiere trae
 Luego de haber realizado el push directo a la rama dev en github hacer los siguientes pasos
 - ir a Pull Requests ![Paso 7-1](images/paso7-1.png)
 - Seleccionar New Pull request ![Paso 7-2](images/paso7-2.png)
+=======
+### 7. Aplicar merge solicitando Pull Request (PR)
+>>>>>>> 070f1498b368d34abf53d5b96bc7dd2955bf05b3
